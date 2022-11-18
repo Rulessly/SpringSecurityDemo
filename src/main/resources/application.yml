@@ -11,7 +11,7 @@ spring:
     database: 0
     cache:
       redis:
-        time-to-live: 1800000 #设置缓存数据的过期时间
+        time-to-live: 1700000 #设置缓存数据的过期时间
 
 mybatis-plus:
   mapper-locations: classpath*:/mapper/**/*.xml
