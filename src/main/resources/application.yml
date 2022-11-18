@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/ydl_security?characterEncoding=utf-8&serverTimezone=UTC
+    username: root
+    password: sjk1234
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  redis:
+    host: 192.168.139.101
+    port: 6379
+    password: 123456
+    database: 0
+    cache:
+      redis:
+        time-to-live: 1800000 #设置缓存数据的过期时间
+
+mybatis-plus:
+  mapper-locations: classpath*:/mapper/**/*.xml
